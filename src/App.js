@@ -10,10 +10,7 @@ function App() {
       <Nav />
       </div>
     <div className="App">
-      <form
-      action="mailto:sonica1031@hotmail.com"
-      method="POST"
-      enctype="multipart/form-data">
+      <form name="test" netlify>
       <h1>Does this item from Menu work?</h1>
       <Form />
       <div className="comments">

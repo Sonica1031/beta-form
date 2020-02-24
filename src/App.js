@@ -10,7 +10,7 @@ function App() {
       <Nav />
       </div>
     <div className="App">
-      <form name="test" netlify>
+      <form name="test" method="POST" data-netlify="true">
       <h1>Does this item from Menu work?</h1>
       <Form />
       <div className="comments">

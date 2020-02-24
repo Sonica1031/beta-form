@@ -6,7 +6,7 @@ function Form(){
 data.map( item =>{
 return(
 <div>
-    <form>
+    <form name={item.group} method="POST" data-netlify="true">
         <h2>{item.name}</h2>
         <input type="radio" group={item.group} name={item.group} value={item.value1}/>
         <label>yes</label>
